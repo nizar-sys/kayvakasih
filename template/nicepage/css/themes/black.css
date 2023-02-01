@@ -1,0 +1,430 @@
+.header .navbar {
+    background-color:#343a40 !important;
+ }  
+ .header .navbar  ul.navbar-nav > li > a{
+     color: #fff !important;
+  }  
+ 
+   /*-------------------------------------------------------------------------------------
+    * Form
+    *-----------------------------------------------------------------------------------*/
+    a.btn {
+     color: #fff !important;
+   }
+  a.btn-submit,
+  .form .btn-submit {
+    color: #fff;
+    background-color:#343a40;
+    border-color:#343a40;
+  }
+  a.btn-submit:hover,
+  .form .btn-submit:hover {
+    color: #fff;  
+    background: #1b1c1e;
+  }
+  
+  
+  /*-----------------------------------------------------------------------------------
+   * video list 
+   *-----------------------------------------------------------------------------------*/  
+  
+  .video-list.card .card-body  a:hover {
+    color:#343a40;
+  }
+   
+  .video-list.card a.read-more {
+    background:#343a40;
+    color: #f7f7f7;
+  }
+   
+  .video-list.card a.read-more:hover {
+    background: #1b1c1e;
+  }
+  
+   
+  .video-list.card a.read-more:hover {
+    background: #1b1c1e;
+  }
+  
+  
+  /*-----------------------------------------------------------------------------------
+   * Video  Detail
+   *-----------------------------------------------------------------------------------*/ 
+   
+  .video-detail.card .image-container a {
+    color:#fff;
+  }
+  
+  .video-detail.card .card-body  a:hover {
+    color:#343a40;
+  } 
+ 
+  /*-----------------------------------------------------------------------------------
+   * Related video 
+   *-----------------------------------------------------------------------------------*/ 
+   
+  .related-video.card .card-body > ul li a:hover { 
+    color:#343a40;
+    background-color: rgba(0,0,0,.03);  
+  }
+  
+  
+  /*-----------------------------------------------------------------------------------
+   * agenda 
+   *-----------------------------------------------------------------------------------*/ 
+  .agenda.card .card-body  a:hover {
+    color:#343a40;
+  }
+   
+  .agenda.card a.read-more {
+    background:#343a40;
+    color: #f7f7f7;
+  }
+   
+  .agenda.card a.read-more:hover {
+    background: #1b1c1e;
+  }
+  
+  .agenda.card a.read-more:hover {
+    background: #1b1c1e;
+  }
+  
+  
+  /*-----------------------------------------------------------------------------------
+   * Grid Card 
+   *-----------------------------------------------------------------------------------*/ 
+  
+  .grid.card .card-body  a:hover {
+    color:#343a40;
+  }
+   
+  .grid.card a.read-more {
+    background:#343a40;
+    color: #f7f7f7;
+  }
+   
+  .grid.card a.read-more:hover {
+    background: #1b1c1e;
+  }
+   
+  
+  
+  
+  
+  /*-----------------------------------------------------------------------------------
+   * Blog 
+   *-----------------------------------------------------------------------------------*/ 
+ 
+  .blog.card .card-body  a:hover {
+    color:#343a40;
+  }
+   
+  .blog.card a.read-more {
+    background:#343a40;
+    color: #f7f7f7;
+  }
+   
+  .blog.card a.read-more:hover {
+    background: #1b1c1e;
+  }
+  
+  .blog.card .tags a{ 
+    background: #d8d8d8;
+  }
+  
+  
+  
+  
+  /*-----------------------------------------------------------------------------------
+   * Blog Detail
+   *-----------------------------------------------------------------------------------*/ 
+  
+  .blog-detail.card .card-body  a:hover {
+    color:#343a40;
+  }
+      
+  
+  .blog-detail.card .tags a{ 
+    background: #d8d8d8;
+  }
+  
+  .blog-detail.card  .post-meta {
+    color: grey;
+  }
+   
+   
+  /*-----------------------------------------------------------------------------------
+   * row Blog 
+   *-----------------------------------------------------------------------------------*/ 
+  .row-blog.card .card-body  a:hover {
+    color:#343a40;
+  }
+  
+  .row-blog.card  a.read-more {
+    background:#343a40;
+    color: #f7f7f7; 
+  }
+   
+  .row-blog.card a.read-more:hover {
+    background: #1b1c1e;
+  }
+    
+    
+  
+  /*-----------------------------------------------------------------------------------
+   * Blog list
+   *-----------------------------------------------------------------------------------*/ 
+ 
+  .blog-list.card .card-body  a:hover {
+    color:#343a40;
+  }
+  
+  .blog-list.card  a.read-more {
+    background:#343a40;
+    color: #f7f7f7; 
+  } 
+ 
+  /*------------------------------------------------------------------------------------------
+   * Polling
+   *------------------------------------------------------------------------------------------*/
+  .polling label.bar { 
+    background-color:#343a40;
+    color: #fff;
+  }
+  
+  /*------------------------------------------------------------------------------------------
+   * Sidebar 
+   *------------------------------------------------------------------------------------------*/
+   .sidebar .widget.card > ul li a:hover,
+   .sidebar .widget.card .card-body > ul li a:hover{ 
+     color: #343a40; 
+   }
+    
+   .sidebar .widget.widget-tagcloud .tagcloud a:hover{
+     color: #343a40 !important; 
+   }
+   
+    
+    
+   .sidebar .widget.widget-comments ul li a:hover {
+     color: #343a40; 
+   }
+     
+   .sidebar .widget.widget-social .social-bar a.social-icon { 
+     border: 1px solid #343a40;
+     color: #343a40; 
+   } 
+    
+   .sidebar .widget.widget-social .social-bar a.social-icon:hover  {
+     background: #343a40; 
+   }
+    
+   
+   .sidebar .widget.posts-widget li.list-post a:hover {
+     color: #343a40; 
+   }
+    
+   .sidebar .widget.widget-contact .contact .data label {
+     color: #343a40;
+   } 
+  
+
+ 
+ 
+  /*------------------------------------------------------------------------------------------------
+   * global readmore
+   *------------------------------------------------------------------------------------------------- */  
+  
+   a.read-more{
+     color:#343a40
+   }
+   
+   a.read-more:hover {
+     text-decoration: none;
+     border-bottom: 1px solid #343a40; 
+   }
+    
+   
+  
+  /*------------------------------------------------------------------------------------------*
+  * footer
+  *------------------------------------------------------------------------------------------*/ 
+  
+  #footer .footer  ul li a:hover,
+  #footer .footer .card-body ul li a:hover{ 
+   color: #343a40;
+   text-decoration: none;
+  }
+  
+  #footer-bottom {
+   background-color: #1a1c1e;
+   color: #fff; 
+  } 
+   
+  /*-----------------------------------------------------------------------------------------------
+  * section
+  *-----------------------------------------------------------------------------------------------*/ 
+  .section.odd {
+   background: #ffffff;
+  }
+  .section.even {
+   background: #e1e6ec;
+  } 
+  
+  
+  .section .card-body .body-container a:hover{
+   color: #343a40; 
+  }
+  
+  .section .card-body .body-container.animate:hover{ 
+   border-bottom: 5px solid #343a40;
+  }
+    
+  
+  #section_cta.section {
+   background-color: #343a40;
+   color: #fff;  
+  }  
+  
+  
+  .section #carouselTestimonial ol.carousel-indicators li{ 
+   background-color: #343a40;
+  }
+  
+  
+  #back-to-top { 
+   background: #343a40;
+   color: #fff; 
+  }
+  
+  
+  #footer ul.footer-menu li a:hover{
+   color: #343a40;
+  } 
+  
+  #footer .social-bar a.social-icon { 
+   border: 1px solid #343a40;
+   color: #343a40;
+  } 
+  
+  #footer .social-bar a.social-icon:hover  {
+   background: #343a40;
+   color: #fff;
+  }
+  
+  .btn-theme {
+   border-radius: 0;
+   color: #fff;
+   background-color: #343a40;
+   border-color: #343a40;
+  }
+  .btn-theme:hover {  
+   background: #1b1c1e;
+   border-color: #1b1c1e;
+   color: #fff;
+  }
+
+  
+ 
+  /*-----------------------------------------------------------------------------------------------
+  * menu
+  *-----------------------------------------------------------------------------------------------*/ 
+ 
+ .main-menu .current-menu-item, 
+ .main-menu .current-menu-ancestor,  
+ .main-menu .current_menu_ancestor,  
+ .main-menu > ul ul li:hover > a ,
+ .main-menu > ul ul li.menu-item a:hover {
+     background: #e1e6ec; 
+ }
+
+  
+/*-----------------------------------------------------------------------------------------------
+* pagination
+*-----------------------------------------------------------------------------------------------*/  
+.pagination a {     
+  border: 1px solid #343a40;
+  color: #343a40; 
+}
+
+.pagination span.current { 
+  background: #343a40; 
+}
+
+.pagination a:hover { 
+  background: #343a40;
+} 
+
+  
+/*-----------------------------------------------------------------------------------------------
+* social share
+*-----------------------------------------------------------------------------------------------*/  
+.social-share a{
+  color: #343a40;
+}
+
+.social-share a:hover{
+  color: #1b1c1e;
+}
+
+/*-----------------------------------------------------------------------------------------------
+ * comment form
+*-----------------------------------------------------------------------------------------------*/  
+
+.comment-respond .comment-form .btn-comment { 
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.comment-respond .comment-form .btn-comment:hover { 
+background: #1b1c1e;
+}
+
+h3.comments a.comment-write:hover {
+  color: #343a40;
+} 
+
+ol.commentlist li a:hover { 
+  color: #343a40;
+} 
+
+.navigation a:hover  { 
+  color: #343a40; 
+  border-bottom: 1px solid #343a40;
+} 
+
+/*--------------------------------------------------------------------------------------------------
+ * Menu responsive
+ *------------------------------------------------------------------------------------------------*/
+ .responsive-menu{ 
+  background: #343a40; 
+}
+    
+
+.responsive-menu .menu-content .sidemenu {
+  background: #343a40; 
+} 
+
+.responsive-menu .menu-top a {
+  color: #343a40;
+  background: #e1e6ec;
+}
+
+
+/*--------------------------------------------------------------------------------------------------
+ * team
+ *------------------------------------------------------------------------------------------------*/
+ .team-socmed a {
+  border: 1px solid #343a40;
+  color: #343a40 !important;
+} 
+
+.team-socmed a:hover  {
+  background: #343a40;
+}
+ 
+ 
+.section-slider .carousel-caption a:hover{
+  color: #343a40; 
+}
+ 

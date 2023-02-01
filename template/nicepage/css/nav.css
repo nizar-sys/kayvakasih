@@ -1,0 +1,149 @@
+.main-menu-container .menu,
+.main-menu{
+    margin: 0;
+    z-index: 120;
+    position: relative;
+    float: right;
+    font-weight: normal;
+}
+
+.main-menu-container .menu ul,
+.main-menu ul.menu-navbar { 
+    position: relative; 
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu-container .menu ul,
+.main-menu ul.menu-navbar,
+.main-menu ul.menu-navbar  {
+    list-style: none;  
+    display: flex;
+    flex-direction: row;
+}
+
+.main-menu-container .menu ul > li,
+.main-menu ul.menu-navbar > li {
+    display: inline-block;  
+}
+ 
+.main-menu li.menu-item {
+    display: block;
+}
+
+.main-menu > ul > li.menu-item > a ,
+.main-menu li.menu-item a {
+    display: block;
+    text-decoration: none;
+    padding:  1rem;
+}
+
+.main-menu li.menu-item a {
+    color: #343a40;
+}
+
+.main-menu > ul > li.menu-item > a {
+    color: #fff;
+}
+ 
+.main-menu > ul > li.menu-item > a:hover { 
+    text-decoration: none;
+    color:#fff; 
+    font-weight: bold;
+}
+
+.main-menu .current-menu-item, 
+.main-menu .current-menu-ancestor,  
+.main-menu .current_menu_ancestor,  
+.main-menu > ul ul li:hover > a ,
+.main-menu > ul ul li.menu-item a:hover {
+    background: #e6e6e6;
+    text-decoration: none;
+    color:#343a40;
+}
+
+ 
+.main-menu .menu-item-has-children {
+    position: relative;
+}
+ 
+.main-menu ul li.menu-item-has-children:hover > ul{
+    display: block;
+} 
+ 
+.main-menu ul li.menu-item-has-children ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    background: #fff; 
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+    margin-left: 0;    
+}
+ 
+.main-menu > ul > li.menu-item-has-children {
+    padding-right: 10px;
+}
+ 
+.main-menu > ul > li.menu-item-has-children::after{    
+    position: absolute;
+    right: 10px;
+    top: 0;
+    margin-top: 28px;
+    content: "";
+    border-top: 5px solid;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent; 
+    color: #fff;
+}
+.main-menu > ul > li.menu-item-has-children::after:hover{  
+    color: #343a40;
+}
+
+
+.main-menu-container .menu ul.children li,
+.main-menu ul.sub-menu li {
+    position: relative;
+    width: 200px; 
+}
+
+.main-menu-container .menu ul.children li a,
+.main-menu ul.sub-menu li a {   
+    padding: 10px 16px;
+}
+
+.main-menu-container .menu ul.children ul.children,
+.main-menu ul.sub-menu ul.sub-menu {   
+    position: absolute;
+    left: 200px;
+    top: 0;
+} 
+ 
+.main-menu ul.sub-menu li.menu-item-has-children::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 18px;
+    margin-right: 10px;
+    content: "";
+    border-left: 5px solid;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent; 
+    color: #343a40;
+}
+ 
+
+.top-menu ul.menu-navbar { 
+    position: relative; 
+    margin: 0;
+    padding: 0;
+}
+.top-menu ul.menu-navbar,
+.top-menu ul.menu-navbar  {
+    list-style: none;  
+    display: flex;
+    flex-direction: row;
+}
+.top-menu ul li {
+    padding-left: 10px;
+}

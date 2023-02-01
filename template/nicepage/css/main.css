@@ -1,0 +1,15 @@
+@import '../vendor/bootstrap/css/bootstrap.min.css';
+@import 'font-awesome.min.css';
+@import 'theme.css';
+@import 'nav.css';
+@import 'nav-responsive.css';
+@import 'pagination.css';
+@import 'comment.css';
+
+
+
+@media (min-width:993px){  
+    body {    
+        margin-top: 84px;
+    }     
+}

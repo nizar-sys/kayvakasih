@@ -1,0 +1,39 @@
+ 
+.pagination {
+    display: flex;
+    padding: 10px; 
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+.pagination a {    
+    padding: 5px 10px;
+    border: 1px solid #28a745;
+    color: #28a745;
+    margin: 0 2px;
+    border-radius: 4px; 
+}
+ 
+.pagination span.current {
+    padding: 5px 10px;
+    color: #fff;
+    background: #28a745;
+    font-weight: bold;
+    margin: 0 2px;
+    border-radius: 4px; 
+}
+ 
+.pagination a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #28a745;
+}
+
+.page-pagination .title {
+    padding: 5px 10px;   
+    color: #343a40;
+    margin: 0 2px;
+    font-weight: bold;
+}
+ 
